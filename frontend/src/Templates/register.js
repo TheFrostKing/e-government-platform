@@ -3,7 +3,7 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Navbar from './nav.js';
-import httpClient from '../httpClients.ts';
+import httpClient from '../httpClients.js';
 import image from "../images/wallpaper.jpg"; 
 
 

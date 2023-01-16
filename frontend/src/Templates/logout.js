@@ -1,4 +1,4 @@
-import httpClient from '../httpClients.ts';
+import httpClient from '../httpClients.js';
 import Cookies from 'js-cookie';
 
 const Logout=()=> {

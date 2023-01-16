@@ -1,4 +1,4 @@
-import httpClient from '../httpClients.ts';
+import httpClient from '../httpClients.js';
 import Navbar from './nav_loggedin';
 // import Cookies from 'js-cookie';
 import { useEffect, useState } from 'react';

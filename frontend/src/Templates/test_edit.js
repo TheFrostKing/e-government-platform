@@ -1,5 +1,5 @@
 import EasyEdit, {Types} from 'react-easy-edit';
-import httpClient from '../httpClients.ts';
+import httpClient from '../httpClients.js';
 import Button from 'react-bootstrap/Button';
 
 

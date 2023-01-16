@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Navbar from './nav.js';
 import Cookies from 'js-cookie';
-import httpClient from '../httpClients.ts';
+import httpClient from '../httpClients.js';
 import Wallpaper  from './background.js';
 import { Link } from "react-router-dom"
 
