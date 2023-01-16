@@ -1,0 +1,24 @@
+name                    = "g4egov"
+environment             = "dev"
+# region                  = "eu-central-1"
+aws-region              = "eu-central-1"
+availability_zones      = ["eu-central-1a", "eu-central-1b"]
+cidr                    = "10.0.0.0/16"
+private_subnets         = ["10.0.0.0/24", "10.0.32.0/24"]
+public_subnets          = ["10.0.16.0/24", "10.0.48.0/24"]
+database_subnets        = ["10.0.24.0/24", "10.0.54.0/24"]
+graylog_subnets         = ["10.0.43.0/24", "10.0.53.0/24"]
+service_desired_count   = 2
+front_container_port    = 3000
+back_container_port     = 5000
+front_container_cpu     = 1024
+back_container_cpu      = 1024
+front_container_memory  = 8192
+back_container_memory   = 2048
+front_ecr_repo          = "901935996178.dkr.ecr.eu-central-1.amazonaws.com/back_end_terra"
+back_ecr_repo           = "901935996178.dkr.ecr.eu-central-1.amazonaws.com/back_end_terra"
+health_check_front      = "/"
+health_check_back       = "/health"
+url_name                = "g4egov.com"
+tsl_certificate_arn     = "arn:aws:acm:eu-central-1:901935996178:certificate/ff8059b6-f9f3-4dec-898f-a6d0bbc8ad74"
+  
