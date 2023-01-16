@@ -1,5 +1,8 @@
 import re,json
 
+# Change the ECS Task execution roles according to your needs and note that it must already exist in your AWS environment.
+# You can modify the paramteres in the backend and frontend roles according to your needs.
+
 jformated = ""
 folder_frontend = 'frontend_definition.json'
 backend_definition = 'backend_definition.json'
