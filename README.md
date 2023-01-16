@@ -25,5 +25,6 @@ Sample tests are written with pytest to demonstrate testing stage of the pipelin
 ![image](https://user-images.githubusercontent.com/37861327/212493108-801e629b-8819-4aaa-85b2-742a14d22d34.png)
 <br>
 Overview of the stages
-<br>
-![image](https://user-images.githubusercontent.com/37861327/212672144-1bc74da7-ef33-4eba-b646-48b6b87464b3.png)
+<br>![WhatsApp Image 2022-12-14 at 8 52 38 PM](https://user-images.githubusercontent.com/37861327/212673262-d91e9c79-e8f0-4d01-ae6b-3833a2786321.jpeg)
+
+
